@@ -1,0 +1,38 @@
+<style>
+        body{
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+		}
+        #navgeral{
+            display: flex; /*nosso container será flex*/
+            flex-direction: column;/*direção do conteúdo*/
+            align-items: center;/*Alinhamento dos itens*/
+            background-color: #19282B; /*cor de fundo*/
+        }
+        #navgeral ul{
+            display: flex;
+            padding: 0;/*espaçamento interno*/
+            margin: 0;/*espaçamento externo*/
+            width: 70%;/*largura em 70% da pagina*/
+            list-style: none;/*remove marcadores de lista*/
+            color: #f1f1f1; /*cor da fonte*/
+        }
+        #navgeral ul li{
+            display: flex;
+            flex-direction: row;/*direção do conteúdo*/
+            width: 100%;/*largura do elemento em 100%*/
+            height: 50px;/*algura do elemento*/
+            line-height: 50px;/*alinhamento horizontal*/
+            text-align: center;/*texto centralizado*/
+        }
+        #navgeral ul li a{
+            width: 100%;/*largura do elemento em 100%*/
+            text-decoration: none;/*remove underline do link*/
+            color: #f1f1f1;
+        }
+        #navgeral ul li a:hover{
+            background-color: #008DA9;/*cor de fundo*/
+            color: #000000;
+            border-style: double;
+            text-decoration: underline;
+        }
+    </style>
