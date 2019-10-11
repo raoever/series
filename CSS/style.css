@@ -2,37 +2,142 @@
         body{
 			font-family: Verdana, Geneva, Tahoma, sans-serif;
 		}
+		section{
+			width: 40%;
+			margin: 0 auto;
+		}
+		form{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}	
+		p{
+			text-align: justify;
+			width: 100%;
+		}	
+		asside ul{
+			padding: 10px;
+            margin: 0;
+            width: 50%;
+            list-style: none;
+		}
+		asside ul a{
+			text-decoration: none;
+		}
         #navgeral{
-            display: flex; /*nosso container será flex*/
-            flex-direction: column;/*direção do conteúdo*/
-            align-items: center;/*Alinhamento dos itens*/
-            background-color: #19282B; /*cor de fundo*/
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
+            background-color: #19282B; 
         }
         #navgeral ul{
             display: flex;
-            padding: 0;/*espaçamento interno*/
-            margin: 0;/*espaçamento externo*/
-            width: 70%;/*largura em 70% da pagina*/
-            list-style: none;/*remove marcadores de lista*/
-            color: #f1f1f1; /*cor da fonte*/
+            padding: 0;
+            margin: 0;
+            width: 70%;
+            list-style: none;
+            color: #f1f1f1; 
         }
         #navgeral ul li{
             display: flex;
-            flex-direction: row;/*direção do conteúdo*/
-            width: 100%;/*largura do elemento em 100%*/
-            height: 50px;/*algura do elemento*/
-            line-height: 50px;/*alinhamento horizontal*/
-            text-align: center;/*texto centralizado*/
+            flex-direction: row;
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
         }
         #navgeral ul li a{
-            width: 100%;/*largura do elemento em 100%*/
-            text-decoration: none;/*remove underline do link*/
+            width: 100%;
+            text-decoration: none;
             color: #f1f1f1;
         }
         #navgeral ul li a:hover{
-            background-color: #008DA9;/*cor de fundo*/
+            background-color: #B22222;
             color: #000000;
             border-style: double;
-            text-decoration: underline;
         }
+		#novidades{
+			display: flex;
+            flex-direction: row;
+            width: 80%;
+			margin: auto;	
+		}
+		h1{
+			text-align: center;
+			font-size: 40px;
+		}
+		h2{
+			text-align: center;
+			font-size: 30px;
+		}
+		h3{
+			text-align: left;
+			font-size: 30px;
+		}
+		.container {
+		  width: 50%;
+		  margin: 0 auto;
+		}
+
+		.form-contact {
+		  width: 100%;
+		  font-family: "Arial", Times, serif;
+		}
+
+		.form-contact-input {
+		  width: 100%;
+		  color: #292929;
+		  font-size: 18px;
+		  background-color: #E9E9E9;
+		  border: 1px solid #E9E9E9;
+		  -moz-border-radius: 5px;
+		  -webkit-border-radius: 5px;
+		  border-radius: 5px;
+		  height: 40px;
+		  margin-bottom: 20px;
+		  border-bottom: 1px solid #ccc;
+		  border-left: 1px solid #ccc;
+		  text-indent: 20px;
+		}
+
+		.form-contact-textarea {
+		  width: 100%;
+		  color: #292929;
+		  font-size: 18px;
+		  background-color: #E9E9E9;
+		  border: 1px solid #E9E9E9;
+		  -moz-border-radius: 5px;
+		  -webkit-border-radius: 5px;
+		  border-radius: 5px;
+		  height: 200px;
+		  margin-bottom: 20px;
+		  border-bottom: 1px solid #ccc;
+		  border-left: 1px solid #ccc;
+		  text-indent: 20px;
+		  padding-top: 16px;
+		  padding-left: 0;
+		  padding-right: 0;
+		  font-family: "Arial", Times, serif;
+		}
+
+		.form-contact-button {
+		  width: 100%;
+		  font-size: 18px;
+		  border-radius: 4px;
+		  color: #fff;
+		  height: 40px;
+		  opacity: .8;
+		  margin-bottom: 20px;
+		  cursor: pointer;
+		  background: #B22222;
+		  display: block;
+		  border: none;
+		  border-bottom: 1px solid #500707;
+		  border-right: 1px solid #500707;
+		  transition: 1s;
+		}
+
+		.form-contact-button:hover {
+		  background-color: #19282B
+		}
     </style>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,24 +12,22 @@
     <nav id="navgeral">
         <ul>
             <li><a href="index.html">Início</a></li>
-            <li><a href="#">Meus Projetos</a></li>
-            <li><a href="#">Disciplinas</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="contato.html">Contato</a></li>
+			<li><a href="novidades.html">Novidades</a></li>
+			<li><a href="atualizados.html">Atualizados</a></li>
+			<li><a href="classicos.html">Clássicos</a></li>
+			<li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
-    <form name="formulario" method="post">
-        <input type=hidden name="destino" value="rene.oliveira@estudante.ifto.edu.br">
-        <input type=hidden name="enviado" value="http://www.contato.htm">
-        <p><b>Nome:</b><br>
-        <input type=text name="nome" size="45"></p><br>
-        <p><b>Email:</b><br>
-        <input type=text name="email" size="45"></p><br>
-        <p><b>Assunto:</b><br>
-        <input type=text name="assunto" size="45"></p><br>
-        <p><b>Mensagem:</b><br>
-        <textarea name="Mensagem" rows="10" cols="60" wrap="virtual"></textarea></p><br>
-        <p><input type="submit" value="Enviar Email"> <input type="reset" value="Limpar Formulário"></p>
-        </form>
+	
+    <div class="container"> 
+		<h2>Para entrar em contato conosco, por favor nos envie uma mensagem preenchendo os campos abaixo.</h2>
+		<form action="#" class="form-contact" method="post" tabindex="1">  
+			 <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />  
+			 <input type="email" class="form-contact-input" name="email" placeholder="Email" required />  
+			 <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />  
+			 <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>  
+			 <button type="submit" class="form-contact-button">Enviar</button>  
+		</form>  
+</div> 
 </body>
 </html>
